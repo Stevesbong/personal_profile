@@ -36,6 +36,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  z-index: 100;
 }
 .nav {
   display: flex;
@@ -63,7 +64,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/rsz_videoblocks-abstract-programming-code-moves-in-the-camera-software-development-concept_s0fm20jshg_thumbnail-full01.png') no-repeat top center ;
+  background: url('images/programingcode.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -131,12 +132,17 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 0 0 20px;
+}
+
+footer .info {
+  margin-top: 50px;
 }
 
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  margin-top: 50px
 }
 
 footer ul {
@@ -204,6 +210,7 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+      font-size: 0.7em;
   }
 
   header {
@@ -227,7 +234,7 @@ a.social:hover {
   footer {
     font-size: 1.3em;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 40px auto 0 auto;
   }
 
 }
